@@ -2,6 +2,7 @@ package metamethod; # make my methods meta!
 use strict;
 use warnings;
 
+use 5.010;
 use Scalar::Util qw(reftype);
 use Variable::Magic qw/wizard cast/;
 
